@@ -1,0 +1,234 @@
+@media (max-width: 768px) {
+    
+    .navbar-light .navbar-toggler{
+        border: none;
+        padding: 0;
+    }
+    .navbar-light .navbar-toggler:focus{
+        outline: none;
+    }
+    .navbar__container #navbarContent .navbar-nav .nav-item.nav__divider::before{
+        display: none;
+    }
+    .starting__screen {
+        background-position: center;
+    }
+    .starting__screen .content__box h1{
+        font-size: 4rem;
+        line-height: 4rem;
+    }    
+    .starting__screen .content__box span.line{
+        width: 120px;
+    }
+    .starting__screen .social__icons .social__itme.active{
+        background: #ff4a81;
+        border-color: #ff4a81;
+    }
+    .starting__screen .content__box h3{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .about__container .text__col .main__text{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .about__container .section__heading .sub__text{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .about__container .text__col p{
+        margin-left: 0;
+    }
+    .about__container .img__col img{
+        width: 100%;
+        left: 0;
+    }
+    .we__advance__container{
+        padding: 2rem 1rem;
+    }
+    .we__advance__container .content__box{
+        width: 300px;
+        height: 300px;
+    }
+    .we__advance__container .content__box h1{
+        font-size: 2rem;
+    }
+    .we__advance__container .content__box h1::before{
+        top: -30px;
+    }
+    .we__advance__container .content__box h1::after{
+        bottom: -30px;
+    }
+    .team__container .text__col .main__text{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .team__container .text__col .sub__text{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .team__container .text__col p{
+        margin-left: 0;
+    }
+    .team__container .card__box .itme {
+        transform: scale(0.8);
+    }
+    .team__container .img__col .card{
+        width: 300px;
+        height: 300px;
+        margin: 1rem auto 0;
+        box-shadow: 0px 0px 0px 20px #ff4a81;
+    }
+    .count__container{
+        padding: 4rem;
+    }
+    
+    .count__container .col-md-3{
+        margin-bottom: 2rem;
+    }
+    .portfolio__text{
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .portfolio__text .main__text{
+        width: 100%;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .portfolio__text .all__text{
+        font-size: 2rem;
+    }
+    .portfolio__text .all__text::before{
+        display: none;
+       
+    }
+    .portfolio__container{
+        flex-direction: column;
+    }
+    .portfolio__container .card__main__box{
+        width: 100%;
+    }
+    .portfolio__container .card__main__box .itme__box .card.l__size{
+        height: 200px;
+    }
+    .blog__container .text__col .main__text{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    
+    .blog__container .text__col .sub__text{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .blog__container .years__text{
+        font-size: 2rem;
+    }
+    .blog__container .years__text span{
+        font-size: 2rem;
+    }
+    .blog__container{
+        padding-bottom: 0;
+    }
+    
+    .blog__container .blog__content .blog__row{
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    
+    .blog__container .blog__content .blog__row.right{
+        flex-direction: column-reverse;
+    }
+    .blog__container .blog__content .blog__row .thumb__box img{
+        width: 100%;
+    }
+    .blog__container .blog__content .blog__row.left .details__box{
+        padding-left: 0;
+    }
+    .blog__container .blog__content .blog__row .details__box .icon__bottom__box ul{
+        flex-wrap: wrap;
+    }
+    .blog__container .blog__content .blog__row.right .details__box{
+        padding-right: 0;
+    }
+    .blog__container .blog__content .blog__row.right .thumb__box .date__box{
+        top: -55px;
+        left: -10px;
+    }
+    .blog__container .blog__content .blog__row .thumb__box .date__box{
+        top: -55px;
+        right: -10px;
+    }
+    .blog__container .blog__content .blog__row.left .details__box{
+        padding-top: 0;
+    }
+    .blog__container .blog__content .blog__row .thumb__box{
+        margin-bottom: 1rem;
+    }
+    .continued__container .top__center{
+        margin-bottom: 3rem;
+    }
+    .continued__container h1{
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .continued__container h1::before{
+        left: 18%;
+        top: -25px;
+    }
+    .continued__container h1::after{
+        left: 9%;
+        bottom: -25px;
+    }
+    
+    .contact__container h1 span{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+    .contact__container h1{
+        text-align: left;
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    .contact__container .contact__box{
+        flex-direction: column;
+    }
+    .contact__container .contact__box .contact__itme{
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+    }
+    .map__container .mark__icon{
+        width: 250px;
+        height: 250px;
+    }
+    .map__container .search__form{
+        width: 100%;
+        right: 0;
+    }
+    .map__container .map__box{
+        height: 500px;
+    }
+    .sebscribe__container{
+        padding: 2rem 0;
+    }
+    .sebscribe__container .row__box{
+        flex-direction: column;
+    }
+    .sebscribe__container .row__box .text__box{
+        width: 100%;
+    }
+    .sebscribe__container .row__box .form__box{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+    .sebscribe__container .row__box .text__box h1{
+        font-size: 2rem;
+    }
+    .bottom__fotter{
+        flex-direction: column-reverse;
+    }
+    
+    .bottom__fotter .brand__logo{
+        margin: 10px 0;
+    }
+}
