@@ -1,6 +1,6 @@
 # Splashes
 
-Visit : https://faizur11786.github.io/Splashes/
+Visit : https://faizur11786.github.io/Splashes/index
 
 <p>
     Design By:
